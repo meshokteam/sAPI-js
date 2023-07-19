@@ -35,10 +35,7 @@ api.getItemInfo(itemId)
 
 // Example: List an item
 const itemParams = {
-  title: 'Item Title',
-  description: 'Item Description',
-  price: 10.99,
-  category_id: 'your_category_id_here',
+  name: 'Item Name',
   // ... other item parameters
 };
 api.listItem(itemParams)
@@ -52,7 +49,7 @@ api.listItem(itemParams)
 // Example: Update an item
 const updatedItemParams = {
   id: 'your_item_id_here',
-  title: 'Updated Item Title',
+  name: 'Updated Item Name',
   // ... other updated item parameters
 };
 api.updateItem(updatedItemParams)
